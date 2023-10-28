@@ -37,7 +37,7 @@ const Home = () => {
         <p id="p">We are here to serve you {res.name}</p>
       </div>
       <div id="getStart">
-        <a id="a" href="https://pumaterials.blogspot.com/">
+        <a id="a" href="https://abin-halo.netlify.app/">
           <img
             src="https://www.freeiconspng.com/uploads/playstation-button-start-26.png"
             alt="getStarted"
