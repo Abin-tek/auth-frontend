@@ -1,15 +1,48 @@
-.container {
-  max-width: 100%;
-  position: absolute;
-  top: 15%;
+
+#box {
+  position: static;
+  margin-top: 10%;
 }
-h1 {
+#h {
   text-align: center;
   font-family: "Lucida Handwriting", cursive;
   font-weight: bolder;
 }
-p {
+#p {
   text-align: center;
   font-family: "consolas";
   font-weight: bold;
+}
+#getStart {
+  width: 100%;
+  height: auto;
+}
+#a {
+  display: inline-block;
+  width: 10%;
+  margin: 5% 45%;
+}
+img {
+  width: 100%;
+  object-fit: contain;
+}
+@media only screen and (max-width: 1200px) {
+  #a {
+    width: 16%;
+    margin: 15% 42%;
+  }
+}
+@media only screen and (max-width: 992px) {
+  #a {
+    margin-top: 25%;
+  }
+}
+@media only screen and (max-width: 768px) {
+  #box{
+    margin-top: 20%;
+  }
+  #a {
+    width: 24%;
+    margin: 35% 38%;
+  }
 }

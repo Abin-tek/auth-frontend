@@ -30,7 +30,7 @@ const SignUp = () => {
     }
   };
   return (
-    <Container>
+    <Container id="cont">
       <h1>Registration Form</h1>
       <Form onSubmit={handleSubmit}>
         <Form.Group>

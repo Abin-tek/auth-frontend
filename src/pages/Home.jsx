@@ -31,9 +31,19 @@ const Home = () => {
     }
   };
   return (
-    <Container>
-        <h1>Welcome to our Website</h1>
-        <p>We are here to serve you {res.name}</p>
+    <Container id="con">
+      <div id="box">
+        <h1 id="h">Welcome to our Website</h1>
+        <p id="p">We are here to serve you {res.name}</p>
+      </div>
+      <div id="getStart">
+        <a id="a" href="https://pumaterials.blogspot.com/">
+          <img
+            src="https://www.freeiconspng.com/uploads/playstation-button-start-26.png"
+            alt="getStarted"
+          />
+        </a>
+      </div>
     </Container>
   );
 };
