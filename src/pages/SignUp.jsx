@@ -67,7 +67,7 @@ const SignUp = () => {
           Register
         </Button>
         <p>
-          Already have an account?<Link to="/login" id="space-behind">Login</Link>
+          Already have an account?&nbsp;<Link to="/login">Login</Link>
         </p>
       </Form>
     </Container>
